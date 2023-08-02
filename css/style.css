@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 a {
+    color: black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+body {
+    overflow: hidden;
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 0 2rem;
+    border-bottom: 1px solid rgba(230, 255, 2, 0.6);
+    /* z index는 static에 안먹음 */
+    z-index: 100;
+    position: relative;
+
+
+}
+
+
+header h1 {}
+
+header h1 a {}
+
+
+/* menu */
+header #menu {
+    display: flex;
+}
+
+header #menu li {
+    margin: 0 0.5vw;
+}
+
+header #menu li a {
+    color: black;
+}
+
+
+/* sns */
+
+header .sns {
+    display: flex;
+}
+
+header .sns li {
+    margin: 0 0.5vw;
+}
+
+header .sns li a {
+    color: black;
+}
+
+header .sns li a i {}
+
+
+/* main */
+
+
+main {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+main video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+main article {
+    position: absolute;
+    left: 6vw;
+    top: 40%;
+}
+
+main article p {
+    font-size: 4vw;
+    color: whitesmoke;
+
+}
+
+/* footer */
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: whitesmoke;
+    text-align: center;
+}
